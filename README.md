@@ -94,7 +94,7 @@ This project is based on Spring Boot Microservices architecture. It allows users
 ### Local Setup
 1. Clone the project:
    ```sh
-   git clone https://github.com/devsyx/spring-boot-microservices.git
+   git clone https://github.com/LAKSHAYMAHINDRO/MS-LAB.git
    ```
 2. Navigate to the project directory:
    ```sh
