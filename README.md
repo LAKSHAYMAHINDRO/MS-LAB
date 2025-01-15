@@ -1,7 +1,7 @@
 # Spring Boot Microservices Project
 
 ## Overview
-This project is based on Spring Boot Microservices architecture. It allows users to register and login via an Auth Service through an API Gateway. Depending on their role (ADMIN or USER), users can send requests to the relevant services with a bearer token. The project includes five key services, as detailed below.
+This project is based on Spring Boot Microservices architecture. It allows users to register and login via an Auth Service through an API Gateway. Depending on their role (ADMIN or USER), users can send requests to the relevant services with a bearer token. The project includes five key services that are communicating with each other, as detailed below. 
 
 ## Services
 1. **Eureka Server**: Service registry for service discovery.
