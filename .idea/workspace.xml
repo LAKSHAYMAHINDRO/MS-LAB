@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aab17e8a-edf0-4d77-ad9f-fd862d2f1ee7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-storage/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/file-storage/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/JobServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/client/CustomErrorDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/client/FileStorageClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/client/UserServiceClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/config/BeanConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/config/FeignConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/config/KafkaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/config/OpenApiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/controller/AdvertController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/controller/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/controller/JobController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/controller/OfferController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/dto/AdvertDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/dto/CategoryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/dto/JobDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/dto/OfferDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/enums/AdvertStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/enums/Advertiser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/enums/OfferStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/exc/GeneralExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/exc/GenericErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/exc/NotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/exc/UnauthorizedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/jwt/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/jwt/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/model/Advert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/model/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/model/Job.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/model/Offer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/repository/AdvertRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/repository/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/repository/JobRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/repository/OfferRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/request/advert/AdvertCreateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/request/advert/AdvertUpdateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/request/category/CategoryCreateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/request/category/CategoryUpdateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/request/job/JobCreateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/request/job/JobUpdateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/request/notification/SendNotificationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/request/offer/MakeAnOfferRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/request/offer/OfferUpdateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/service/AdvertService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/service/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/service/JobService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/java/com/safalifter/jobservice/service/OfferService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-service/src/test/java/com/safalifter/jobservice/JobServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/safalifter/notificationservice/NotificationServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/safalifter/notificationservice/config/KafkaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/safalifter/notificationservice/controller/NotificationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/safalifter/notificationservice/listeners/NotificationListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/safalifter/notificationservice/model/Notification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/safalifter/notificationservice/repository/NotificationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/safalifter/notificationservice/request/SendNotificationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/safalifter/notificationservice/service/NotificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/test/java/com/safalifter/notificationservice/NotificationServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/auth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/category-advert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/eureka.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/file-download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/file-upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/kafka-ui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/offer-job.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/mvnw" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2rPNLKIdhaP3cKpJanmRlGUtEnT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AuthServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.FileStorageApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.JobServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.NotificationServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Krish/College/Sem 7/MSLAB/PROJECT/MS LAB Project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.safalifter.authservice.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.safalifter.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.safalifter.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileStorageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="file-storage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.safalifter.filestorage.FileStorageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.safalifter.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="job-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.safalifter.jobservice.JobServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.safalifter.notificationservice.NotificationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.safalifter.userservice.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aab17e8a-edf0-4d77-ad9f-fd862d2f1ee7" name="Changes" comment="" />
+      <created>1736456693162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736456693162</updated>
+      <workItem from="1736456695020" duration="2226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
