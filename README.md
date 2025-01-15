@@ -1,12 +1,14 @@
 # Spring Boot Microservices Project
 
 ## Overview
-This project is based on Spring Boot Microservices architecture. It allows users to register and login via an Auth Service through an API Gateway. Depending on their role (ADMIN or USER), users can send requests to the relevant services with a bearer token. The project includes three key services, as detailed below.
+This project is based on Spring Boot Microservices architecture. It allows users to register and login via an Auth Service through an API Gateway. Depending on their role (ADMIN or USER), users can send requests to the relevant services with a bearer token. The project includes five key services, as detailed below.
 
 ## Services
-1. **Auth Service**: Handles user authentication and authorization.
-2. **User Service**: Manages user data and profiles.
-3. **File Storage**: Manages file upload and storage.
+1. **Eureka Server**: Service registry for service discovery.
+2. **API Gateway**: Entry point for all client requests, routing them to the appropriate services.
+3. **Auth Service**: Handles user authentication and authorization.
+4. **User Service**: Manages user data and profiles.
+5. **File Storage**: Manages file upload and storage.
 
 ## Key Features
 - User registration and login with role-based access (ADMIN or USER)
@@ -21,15 +23,19 @@ This project is based on Spring Boot Microservices architecture. It allows users
 - **Spring Security JWT**: Implements JWT-based authentication.
 - **Spring Web**: Provides web functionalities.
 
-### Data
-- **Spring Data JPA**: Abstraction over JPA for database interactions.
-- **PostgreSQL**: Relational database for data storage.
+### Service Discovery
+- **Netflix Eureka Server**: Service registry for microservices.
+- **Netflix Eureka Client**: Registers services with Eureka Server.
 
 ### Utilities
 - **ModelMapper**: Object mapping library.
 - **OpenAPI UI**: Generates API documentation.
 - **Lombok**: Reduces boilerplate code.
 - **Log4j2**: Logging framework.
+
+### Data
+- **Spring Data JPA**: Abstraction over JPA for database interactions.
+- **PostgreSQL**: Relational database for data storage.
 
 ### Validation
 - **Spring Validation**: Validates user input.
@@ -98,10 +104,18 @@ This project is based on Spring Boot Microservices architecture. It allows users
    docker compose up
    ```
 4. Run the following services in order:
+   - Eureka Server
+   - Gateway
    - Auth Service
    - User Service
    - File Storage
-5. Access Swagger UI for API documentation:
+
+5. Access the Eureka Server dashboard to monitor registered services:
+   ```
+   http://localhost:8761
+   ```
+
+6. Access Swagger UI for API documentation:
    ```
    http://localhost:8080/v1/{service-name}/swagger-ui/index.html
    ```
