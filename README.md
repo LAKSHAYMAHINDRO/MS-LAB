@@ -106,10 +106,12 @@ This project is based on Spring Boot Microservices architecture. It allows users
    ```
 4. Run the following services in order:
    - Eureka Server
+   - Config Server
    - Gateway
    - Auth Service
    - User Service
    - File Storage
+     
 
 5. Access the Eureka Server dashboard to monitor registered services:
    ```
