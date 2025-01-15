@@ -333,5 +333,7 @@ This project is based on Spring Boot Microservices architecture. It allows users
    ```
    http://localhost:8080/v1/{service-name}/swagger-ui/index.html
    ```
+# Video
 
+[Watch the video](MS Lab Demo.mp4)
 
