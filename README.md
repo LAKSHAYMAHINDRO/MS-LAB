@@ -334,9 +334,4 @@ This project is based on Spring Boot Microservices architecture. It allows users
    http://localhost:8080/v1/{service-name}/swagger-ui/index.html
    ```
 
-## Contributions
-Contributions are welcome. Please fork the repository and create a pull request with your changes.
-
-## License
-This project is licensed under the MIT License.
 
