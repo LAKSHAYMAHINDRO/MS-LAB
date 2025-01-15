@@ -124,7 +124,7 @@ This project is based on Spring Boot Microservices architecture. It allows users
 
 You can access the project file using the following link:
 
-[Project Resources](https://drive.google.com/file/d/15EnYvzVmcpHEMJWqmCPQude3Q-iV_zmK/view?usp=sharing)
+[Project Resources](https://drive.google.com/file/d/1HOgalAhYIuper2MG7Y4tIZjk_FXGhhcn/view?usp=sharing)
 
 
 
