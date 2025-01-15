@@ -5,10 +5,11 @@ This project is based on Spring Boot Microservices architecture. It allows users
 
 ## Services
 1. **Eureka Server**: Service registry for service discovery.
-2. **API Gateway**: Entry point for all client requests, routing them to the appropriate services.
-3. **Auth Service**: Handles user authentication and authorization.
-4. **User Service**: Manages user data and profiles.
-5. **File Storage**: Manages file upload and storage.
+2. **Config Server**: Responsible for managing centralized configuration for other microservices.
+3. **API Gateway**: Entry point for all client requests, routing them to the appropriate services.
+4. **Auth Service**: Handles user authentication and authorization.
+5. **User Service**: Manages user data and profiles.
+6. **File Storage**: Manages file upload and storage.
 
 ## Key Features
 - User registration and login with role-based access (ADMIN or USER)
