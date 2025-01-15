@@ -339,6 +339,8 @@ To learn more about our project, you can watch the video below:
 
 [Watch the video](videos/video.mp4)
 
-Make sure to check out the video for a detailed overview of the features and functionality of our project.
+## Video GIF
+![Demo](videos/video.mp4.gif)
+
 
 
