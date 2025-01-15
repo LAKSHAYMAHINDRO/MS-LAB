@@ -120,11 +120,9 @@ This project is based on Spring Boot Microservices architecture. It allows users
    http://localhost:8080/v1/{service-name}/swagger-ui/index.html
    ```
 
-## Access the Project File
+## Project Demo
 
-You can access the project file using the following link:
-
-[Project Resources](https://drive.google.com/file/d/1HOgalAhYIuper2MG7Y4tIZjk_FXGhhcn/view?usp=sharing)
+Download and watch the demo video [here](videos/video.mp4).
 
 
 
