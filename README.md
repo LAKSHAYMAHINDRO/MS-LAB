@@ -122,7 +122,12 @@ This project is based on Spring Boot Microservices architecture. It allows users
 
 ## Project Demo
 
-Download and watch the demo video [here](videos/video.mp4).
+Download and watch the demo video [here](videos/video.mp4)
+
+## Demo ( Google Drive )
+
+Watch the demo video [Drive Link](https://drive.google.com/file/d/1HOgalAhYIuper2MG7Y4tIZjk_FXGhhcn/view?usp=sharing).
+
 
 
 
