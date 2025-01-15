@@ -339,8 +339,11 @@ To learn more about our project, you can watch the video below:
 
 [Watch the video](videos/video.mp4)
 
-## Video GIF
-![Demo](videos/video.mp4.gif)
+## Project Preview
+
+Here’s a quick preview of how it works:
+
+![Project GIF](videos/video.mp4)
 
 
 
